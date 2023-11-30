@@ -43,7 +43,7 @@ func GetMaxFeePerGas(client *ethclient.Client, max_gas_tip uint64) *big.Int {
 }
 
 // EIP-155
-func SendEthLegacyTxn(url_to_connect string,
+func SendLegacyTxn(url_to_connect string,
 	sender_private_key_hex string,
 	sender_wei_to_send int64,
 	receiver_public_addr_hex string) {
